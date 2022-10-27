@@ -6,4 +6,6 @@ Tailwindcss
 Postcss
 Autoprefixer
 clsx  
-storybook
+storybook  
+phosphor  
+radix
