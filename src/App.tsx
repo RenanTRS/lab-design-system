@@ -2,6 +2,6 @@ import './styles/global.css';
 
 export function App() {
   return (
-    <h1>Hello World</h1>
+    <span className='text-gray-100'>Hello World</span>
   )
 }
