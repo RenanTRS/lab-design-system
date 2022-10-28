@@ -6,7 +6,13 @@ export default {
   title: 'Components/Checkebox',
   component: Checkbox,
   args: {},
-  argTypes: {},
+  argTypes: {
+    asChild: {
+      table: {
+        disable: true
+      }
+    }
+  },
   decorators:[ //Acrescenta elementos, no caso acrescentou uma div e o Text
     (Story) => {
       return (
