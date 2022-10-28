@@ -24,5 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 
+package-lock.json
 # Storybook
 storybook-static
