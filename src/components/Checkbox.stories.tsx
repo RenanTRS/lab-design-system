@@ -10,10 +10,10 @@ export default {
   decorators:[ //Acrescenta elementos, no caso acrescentou uma div e o Text
     (Story) => {
       return (
-        <div className='flex items-center gap-2'>
+        <label className='flex items-center gap-2'>
           {Story()} {/*Checkbox component*/}
           <Text size="sm">Lembrar-me de mim por 30 dias</Text>
-        </div>
+        </label>
       )
     }
   ]
