@@ -13,7 +13,7 @@ export function App() {
       <header className='flex flex-col items-center'>
         <Logo />
         
-        <Heading size='lg' className='mt-4'>
+        <Heading size='lg' className='mt-2 2xl:mt-4'>
           Ignite Lab
         </Heading>
 
@@ -22,7 +22,7 @@ export function App() {
         </Text>
       </header>
 
-      <form className='flex flex-col items-stretch gap-4 w-full max-w-sm mt-10'>
+      <form className='flex flex-col items-stretch gap-4 w-full max-w-sm mt-8 2xl:mt-10'>
         <label htmlFor="email" className='flex flex-col gap-3'>
           <Text className='font-semibold'>Endereço de e-mail</Text>
           <TextInput.Root>
@@ -47,7 +47,7 @@ export function App() {
         <Button type='submit' className='mt-4'>Entrar na plataforma</Button>
       </form>
 
-      <footer className='flex flex-col items-center gap-4 mt-8'>
+      <footer className='flex flex-col items-center gap-4 mt-4 2xl:mt-8'>
         <Text asChild size='sm'>
           <a href="" className='text-gray-400 underline hover:text-gray-200'>Esqueceu sua senha?</a>
         </Text>
