@@ -1,0 +1,2 @@
+import{T as t,E as o}from"./TextInput.e2795496.js";import{j as e}from"./jsx-runtime.c3d2b69d.js";import"./index.d8f468b5.js";import"./iframe.3a4232ba.js";import"./IconBase.esm.328cdaf8.js";import"./index.module.4e63014e.js";const l={title:"Components/TextInput",component:t.Root,args:{children:[e(t.Icon,{children:e(o,{})}),e(t.Input,{placeholder:"Type your e-mail address"})]},argTypes:{children:{table:{disable:!0}}}},m={},d=["Default"];export{m as Default,d as __namedExportsOrder,l as default};
+//# sourceMappingURL=TextInput.stories.7e369340.js.map
